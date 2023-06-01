@@ -1,0 +1,17 @@
+/* SCRIPT CSS DA PAGINA DE PERFIL DO USUÁRIO */
+
+body{
+    background: linear-gradient(to right, rgb(197, 227, 245), rgb(238, 214, 214));
+    color: white;
+    text-align: center;
+}
+.table-bg{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px 15px 0 0;
+}
+
+.box-search{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}

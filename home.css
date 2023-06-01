@@ -1,0 +1,121 @@
+    body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        background: #ffffff;
+        text-align: center;
+        color: black;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+    .header {
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #ffffff;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .btnstop {
+        text-decoration: none;
+        margin-left: 40px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color: black;
+        transition: linear 0.15s;
+    }
+
+    .btnstop:hover {
+        color: rgb(133, 133, 133);
+    }
+
+    #btnborder {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    #btnborder:hover {
+        border: 2px solid rgb(65, 65, 65);
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    #hrtop {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    #hrmain {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .grid-container {
+        margin-left: 25%;
+        margin-right: 25%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    .grid-item {
+        margin-left: 1%;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .grid-item a {
+        color: rgb(0, 0, 0);
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        transition: linear 0.15s;
+    }
+
+    .grid-item a:hover {
+        color: rgb(129, 129, 129);
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .icons {
+        width: 64px;
+    }
+
+    .search input[type=text] {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 2px solid black;
+        border-radius: 30px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 62%;
+        font-size: 17px;
+    }

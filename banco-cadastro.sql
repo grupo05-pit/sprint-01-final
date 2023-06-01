@@ -1,0 +1,37 @@
+/* SCRIPT PARA CRIAÇÃO DO BANCO NO SQL */
+
+create database cadastro;
+
+use cadastro;
+
+/* TABELA DOS USUÁRIOS */
+
+CREATE TABLE usuarios (
+  `id` INT NOT NULL auto_increment,
+  `nome` VARCHAR(75) NOT NULL,
+  `senha` VARCHAR(20) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `cpf` varchar(14) not null,
+  `telefone` VARCHAR(15) NOT NULL,
+  `sexo` VARCHAR(9) NOT NULL,
+  `data_nasc` DATE NOT NULL,
+  `cidade` VARCHAR(45) NOT NULL,
+  `estado` VARCHAR(20) NOT NULL,
+  `endereco` VARCHAR(90) NOT NULL,
+  `foto_perfil` BLOB not null,
+  PRIMARY KEY (`id`)
+  );
+
+/* TABELA DOS SERVIÇOS */
+
+CREATE TABLE servicos (
+  `id_serv` INT NOT NULL auto_increment,
+  `nome_serv`  VARCHAR(100) NOT NULL,
+  `finalidade` VARCHAR(100) NOT NULL,
+  `preco` FLOAT NOT NULL,
+  `dias` DATE NOT NULL,
+  `cidades` VARCHAR(75) NOT NULL,
+  `tam_equipe` INT NOT NULL,
+  `img_serv` blob not null,
+  PRIMARY KEY (`id_serv`)
+  );
